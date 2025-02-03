@@ -1,10 +1,10 @@
 % MATLAB Code to calculate the minimum Hamming Distance for a code C
 % Author: Priya Jain
 
-codewords = [0 1 1 1 1 0 0 0;
-             1 0 1 1 0 0 0 1;
-             1 1 0 1 0 0 1 0;
-             1 1 1 0 0 1 0 0];
+codewords = [0 1 1 1 0 1 1 1;
+             1 1 1 0 1 1 1 0;
+             1 1 0 1 1 1 0 1;
+             1 0 1 1 1 0 1 1];
 
 % Number of codewords
 [num_code, n] = size(codewords);
